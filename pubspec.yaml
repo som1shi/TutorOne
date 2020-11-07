@@ -44,6 +44,8 @@ flutter:
   assets:
     - assets/background.png
     - assets/A.gif
+    - assets/B.gif
+    - assets/bg2.png
     - assets/a2.gif
     - assets/b2.gif
     - assets/c2.gif

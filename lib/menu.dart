@@ -10,7 +10,7 @@ class MainMenu extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/background.png"), fit: BoxFit.cover)),
+              image: AssetImage("assets/bg2.png"), fit: BoxFit.cover)),
       child: GridView.count(
           primary: false,
           padding: const EdgeInsets.all(20),
@@ -29,8 +29,8 @@ class MainMenu extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 50),
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage('assets/a2.gif')),
-                    color: Colors.pink[200],
-                    borderRadius: BorderRadius.circular(20)),
+                    color: Colors.lightBlueAccent[100],
+                    borderRadius: BorderRadius.circular(50)),
               ),
             ),
             GestureDetector(
@@ -45,8 +45,8 @@ class MainMenu extends StatelessWidget {
                   decoration: BoxDecoration(
                       image:
                           DecorationImage(image: AssetImage('assets/b2.gif')),
-                      color: Colors.pink[200],
-                      borderRadius: BorderRadius.circular(20)),
+                      color: Colors.lightBlueAccent[100],
+                      borderRadius: BorderRadius.circular(50)),
                 )),
             GestureDetector(
               onTap: () {
@@ -59,8 +59,8 @@ class MainMenu extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 50),
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage('assets/c2.gif')),
-                    color: Colors.pink[200],
-                    borderRadius: BorderRadius.circular(20)),
+                    color: Colors.lightBlueAccent[100],
+                    borderRadius: BorderRadius.circular(50)),
               ),
             ),
             GestureDetector(
@@ -74,8 +74,8 @@ class MainMenu extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 50),
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage('assets/d2.gif')),
-                    color: Colors.pink[200],
-                    borderRadius: BorderRadius.circular(20)),
+                    color: Colors.lightBlueAccent[100],
+                    borderRadius: BorderRadius.circular(50)),
               ),
             ),
             GestureDetector(
@@ -89,8 +89,8 @@ class MainMenu extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 50),
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage('assets/e2.gif')),
-                    color: Colors.pink[200],
-                    borderRadius: BorderRadius.circular(20)),
+                    color: Colors.lightBlueAccent[100],
+                    borderRadius: BorderRadius.circular(50)),
               ),
             ),
             GestureDetector(
@@ -104,8 +104,8 @@ class MainMenu extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 50),
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage('assets/f2.gif')),
-                    color: Colors.pink[200],
-                    borderRadius: BorderRadius.circular(20)),
+                    color: Colors.lightBlueAccent[100],
+                    borderRadius: BorderRadius.circular(50)),
               ),
             ),
             GestureDetector(
@@ -119,8 +119,8 @@ class MainMenu extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 50),
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage('assets/g2.gif')),
-                    color: Colors.pink[200],
-                    borderRadius: BorderRadius.circular(20)),
+                    color: Colors.lightBlueAccent[100],
+                    borderRadius: BorderRadius.circular(50)),
               ),
             ),
             GestureDetector(
@@ -134,8 +134,8 @@ class MainMenu extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 50),
                 decoration: BoxDecoration(
                     image: DecorationImage(image: AssetImage('assets/h2.gif')),
-                    color: Colors.pink[200],
-                    borderRadius: BorderRadius.circular(20)),
+                    color: Colors.lightBlueAccent[100],
+                    borderRadius: BorderRadius.circular(50)),
               ),
             ),
           ]),
