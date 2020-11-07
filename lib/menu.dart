@@ -5,7 +5,6 @@ void main() => runApp(new MainMenu());
 
 class MainMenu extends StatelessWidget {
   @override
-  // ignore: missing_return
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
@@ -37,7 +36,7 @@ class MainMenu extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    new MaterialPageRoute(builder: (context) => new Lobby()),
+                    new MaterialPageRoute(builder: (context) => new Lobby2()),
                   );
                 },
                 child: Container(
@@ -52,7 +51,7 @@ class MainMenu extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  new MaterialPageRoute(builder: (context) => new Lobby()),
+                  new MaterialPageRoute(builder: (context) => new Lobby2()),
                 );
               },
               child: Container(
