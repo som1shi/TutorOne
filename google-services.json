@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "793127503706",
+    "firebase_url": "https://tutorone-3bec4.firebaseio.com",
+    "project_id": "tutorone-3bec4",
+    "storage_bucket": "tutorone-3bec4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793127503706:android:9a8aa566415fd679c59563",
+        "android_client_info": {
+          "package_name": "com.education.TutorOne"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793127503706-hv2md36bd9mno1vaiuskli1g4acul291.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZv90qG5UOtXqP4gILRnr6uvES4AfWU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793127503706-hv2md36bd9mno1vaiuskli1g4acul291.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
