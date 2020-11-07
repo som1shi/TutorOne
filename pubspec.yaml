@@ -44,6 +44,15 @@ flutter:
   assets:
     - assets/background.png
     - assets/A.gif
+    - assets/a2.gif
+    - assets/b2.gif
+    - assets/c2.gif
+    - assets/d2.gif
+    - assets/e2.gif
+    - assets/f2.gif
+    - assets/g2.gif
+    - assets/h2.gif
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

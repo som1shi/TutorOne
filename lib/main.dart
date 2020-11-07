@@ -1,5 +1,5 @@
+import 'package:TutorOne/menu.dart';
 import 'package:flutter/material.dart';
-import 'package:TutorOne/text.dart';
 
 void main() => runApp(MaterialApp(home: TutorApp()));
 
@@ -35,7 +35,7 @@ class TutorApp extends StatelessWidget {
                       Navigator.push(
                         context,
                         new MaterialPageRoute(
-                            builder: (context) => new Lobby()),
+                            builder: (context) => new MainMenu()),
                       );
                     },
                     textColor: Colors.lightBlue),
