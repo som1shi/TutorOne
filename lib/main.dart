@@ -1,7 +1,9 @@
 import 'package:TutorOne/menu.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(home: TutorApp()));
+Future<void> main() async {
+  runApp(MaterialApp(home: TutorApp()));
+}
 
 class TutorApp extends StatelessWidget {
   @override

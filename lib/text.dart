@@ -19,8 +19,7 @@ class Lobby extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  new MaterialPageRoute(
-                      builder: (context) => new Photography()),
+                  new MaterialPageRoute(builder: (context) => new MyApp()),
                 );
               },
               child: Container(
@@ -45,8 +44,7 @@ class Lobby extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    new MaterialPageRoute(
-                        builder: (context) => new Photography()),
+                    new MaterialPageRoute(builder: (context) => new MyApp()),
                   );
                 },
                 textColor: Colors.lightBlue),
@@ -73,8 +71,7 @@ class Lobby2 extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  new MaterialPageRoute(
-                      builder: (context) => new Photography()),
+                  new MaterialPageRoute(builder: (context) => new MyApp()),
                 );
               },
               child: Container(
@@ -99,8 +96,7 @@ class Lobby2 extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    new MaterialPageRoute(
-                        builder: (context) => new Photography()),
+                    new MaterialPageRoute(builder: (context) => new MyApp()),
                   );
                 },
                 textColor: Colors.lightBlue),
