@@ -61,6 +61,8 @@ flutter:
     - assets/f2.gif
     - assets/g2.gif
     - assets/h2.gif
+    - assets/correct.png
+    - assets/wrong.png
 
 
   # The following line ensures that the Material Icons font is

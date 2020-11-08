@@ -1,5 +1,6 @@
 import 'dart:async';
-
+import 'package:TutorOne/correct.dart';
+import 'package:TutorOne/wrong.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobile_vision/flutter_mobile_vision.dart';
 
@@ -12,18 +13,14 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   int _cameraOcr = FlutterMobileVision.CAMERA_BACK;
-  String _textValue = "sample";
+  String _textValue = "Click to start scanning";
 
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      theme: new ThemeData(
-        primarySwatch: Colors.lime,
-        buttonColor: Colors.lime,
-      ),
       home: new Scaffold(
         appBar: new AppBar(
-          title: new Text('Flutter Mobile Vision'),
+          title: new Text('Camera Scanner'),
         ),
         body: Center(
             child: new ListView(
@@ -31,7 +28,7 @@ class _MyAppState extends State<MyApp> {
             new Text(_textValue),
             new RaisedButton(
               onPressed: _read,
-              child: new Text('Start Scanning'),
+              child: new Text('Start Scanning!'),
             ),
           ],
         )),
@@ -53,5 +50,15 @@ class _MyAppState extends State<MyApp> {
     } on Exception {
       texts.add(new OcrText('Failed to recognize text.'));
     }
+    if (texts[0].value == "A") {
+      return Navigator.push(
+        context,
+        new MaterialPageRoute(builder: (context) => Correct()),
+      );
+    }
+    return Navigator.push(
+      context,
+      new MaterialPageRoute(builder: (context) => Wrong()),
+    );
   }
 }
